@@ -13,7 +13,7 @@ function Header(){
                     <label for="toggler"><i class="ri-menu-line"></i></label>
                         <div class="menu">
                             <ul class="list">
-                                <Link to={"/" }>INICIOS</Link>
+                                <Link to={"/" }>INICIO</Link>
                                 <Link to={"/sobre" }>SOBRE</Link>
                                 <Link to={"/Contato" }>CONTATO</Link>
                             </ul>
