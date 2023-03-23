@@ -1,0 +1,36 @@
+.container-banner{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner div{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+@media (max-width: 720px){
+    .banner h1{
+        font-size: 25px;
+    }
+
+    .banner h3{
+        font-size: 15px;
+    }
+}

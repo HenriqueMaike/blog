@@ -1,0 +1,32 @@
+.container-pagination{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pagination{
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.select{
+    width: 230px;
+}
+
+.select select{
+    margin-left: 10px;
+}

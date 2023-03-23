@@ -1,0 +1,102 @@
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+}
+
+.ListPosts{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.78);
+    background-color: #FFF;
+}
+
+@media (max-width: 720px){
+    .cards{
+        padding: 15px;
+    }
+}
+
+.posts{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    gap: 20px;
+    color: #000;
+}
+
+.posts p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+.posts a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.posts a:hover{
+    color: #001ab3;
+}
+
+
+
+.posts-img{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 720px){
+    .posts{
+        width: 100%;
+    }
+
+    .posts-img{
+        margin-top: 10px;
+    }
+
+    .posts a{
+        font-size: 18px;
+    }
+}
+
+.posts-img img{
+    display: flex;
+    width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.autor{
+    font-size: 14px;
+}
+
+.comentarios{
+    font-size: 14px;
+    color: #001ab3;
+}
